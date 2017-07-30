@@ -218,7 +218,7 @@ class User extends SentryUser {
         $message->creator_id        = $creatorId;
         $message->updater_id        = $creatorId;
         $message->receiver_id       = $this->id;
-        $message->sent_by_system    = true;
+        $message->sent_by_system    = $sentBySystem;
         $message->createSlug();
 
         $message->save();
