@@ -24,7 +24,7 @@ To install Contentify please follow the instructions in the [wiki](https://githu
 
 ### Demo
 
-* URL: [demo.contentify.org](http://demo.contentify.org/)
+* URL: [demo.contentify.org](http://demo.contentify.org/) (running with v2.0-beta by now)
 * Email: `demo@contentify.org`
 * Password: `demodemo`
 
