@@ -381,6 +381,11 @@ class ModelHandler {
                         if (! isset($imgData[2]) or ! $imgData[2]) {
                             $error = trans('app.invalid_image');
                         }
+                        
+                        $allowedExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp'];
+                        if (! in_array(strtolower($extension), $allowedExtensions)) {
+                            $error = trans('app.invalid_image');
+                        }
                     }
 
                     if (in_array($extension, $controller->getEvilFileExtensions())) {
@@ -511,6 +516,11 @@ class ModelHandler {
                         }
 
                         if (! isset($imgData[2]) or ! $imgData[2]) {
+                            $error = trans('app.invalid_image');
+                        }
+                        
+                        $allowedExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp'];
+                        if (! in_array(strtolower($extension), $allowedExtensions)) {
                             $error = trans('app.invalid_image');
                         }
                     }
