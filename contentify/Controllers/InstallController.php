@@ -172,7 +172,7 @@ class InstallController extends Controller
                     "host = "."\"$host\"".PHP_EOL.
                     "database = "."\"$database\"".PHP_EOL.
                     "username = "."\"$username\"".PHP_EOL.
-                    "password = "."\"$password\"";
+                    "password = "."\"$password\""
                 );
 
                 $this->createDatabase();
