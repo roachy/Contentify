@@ -1,0 +1,9 @@
+{
+    "slug": "Countries",
+    "admin-nav": [
+        {
+            "icon": "flag",
+            "category": 2
+        }
+    ]    
+}

@@ -1,0 +1,11 @@
+{
+    "slug": "News",
+    "search": ["news"],
+    "admin-nav": [
+        {
+            "icon": "newspaper-o",
+            "category": 1,
+            "position": 2            
+        }
+    ]
+}

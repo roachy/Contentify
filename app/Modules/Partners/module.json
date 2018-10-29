@@ -1,0 +1,10 @@
+{
+    "slug": "Partners",
+    "admin-nav": [
+        {
+            "icon": "money",
+            "category": 2,
+            "position": 5          
+        }
+    ]
+}

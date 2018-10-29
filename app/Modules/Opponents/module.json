@@ -1,0 +1,10 @@
+{
+    "slug": "Opponents",
+    "admin-nav": [
+        {
+            "icon": "shield",
+            "category": 3,
+            "position": 4            
+        }
+    ]
+}

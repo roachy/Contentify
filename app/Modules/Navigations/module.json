@@ -1,0 +1,10 @@
+{
+    "slug": "Navigations",
+    "admin-nav": [
+        {
+            "icon": "navicon",
+            "category": 4,
+            "position": 4
+        }
+    ]
+}
